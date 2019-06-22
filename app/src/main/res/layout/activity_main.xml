@@ -23,29 +23,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.aqoong.lib.icontextview.IconTextView
-            android:id="@+id/textview1"
-            app:text="TESTESTZ"
-            app:src="@mipmap/ic_launcher"
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-        </com.aqoong.lib.icontextview.IconTextView>
-
-        <com.aqoong.lib.icontextview.IconTextView
-            android:id="@+id/textview2"
-            app:text="TESTESTZ"
-            app:src="@mipmap/ic_launcher"
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-        </com.aqoong.lib.icontextview.IconTextView>
 
         <com.aqoong.lib.icontextview.IconTextView
             android:id="@+id/textview3"
             app:text="TESTESTZ"
+            app:textColor="#000000"
             app:src="@mipmap/ic_launcher"
             android:orientation="horizontal"
             android:layout_width="match_parent"
